@@ -37,11 +37,11 @@ for = 10  # 'for' is a reserved keyword
 In Python, you use the assignment operator = to assign a value to a variable.
 
 Example:
-python
-Copy code
+```python
 age = 25
 name = "Alice"
 is_active = True
+```
 Here:
 
 The variable age stores an integer value 25.
