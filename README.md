@@ -192,7 +192,7 @@ x /= 2 (divide and assign)
 Summary of Python Variables and Assignment:
 
 Variables store values in memory, and the value can be changed or used later in your code.
-Use the assignment operator (=) to assign a value to a variable
+Use the assignment operator (=) to assign a value to a variable.
 Python infers the type of a variable automatically based on the value assigned (e.g., int, float, str, bool).
 You can reassign variables, use them in expressions, and perform type conversion if needed.
 Variables have scope, which determines where they can be accessed (global or local).
