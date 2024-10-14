@@ -12,7 +12,7 @@ In simple terms, you can think of a variable as a container or box that holds so
 
 ```python
 age = 25
-
+```
 
 ## 2. Rules for Naming Variables
 There are a few rules and guidelines when naming variables in Python:
@@ -22,17 +22,16 @@ Variable names are case-sensitive. So name and Name are different variables.
 You cannot use reserved keywords in Python like if, else, for, etc., as variable names.
 ### Example of Valid Variable Names:
 ``` python
-
 name = "Alice"
 total_price = 100.50
 _is_valid = True
-
+```
 Example of Invalid Variable Names:
 ``` python
 1st_name = "Alice"  # Cannot start with a number
 total-price = 100.50  # Cannot use hyphens (-), must use underscores (_)
 for = 10  # 'for' is a reserved keyword
-
+```
 
 ### 3. Assigning Values to Variables
 In Python, you use the assignment operator = to assign a value to a variable.
