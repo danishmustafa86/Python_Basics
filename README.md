@@ -198,3 +198,141 @@ You can reassign variables, use them in expressions, and perform type conversion
 Variables have scope, which determines where they can be accessed (global or local).
 Python allows augmented assignment to simplify certain operations (like +=, -=).
 Would you like to see more examples or ask any specific questions related to variables and assignments?
+
+
+
+### 1. Integers
+Definition: An integer is a whole number that can be positive, negative, or zero. It does not have any fractional or decimal component.
+
+Example:
+
+```python
+Copy code
+age = 25
+temperature = -5
+zero_value = 0
+```
+Characteristics:
+
+Type: The type of an integer can be confirmed using the type() function.
+```python
+Copy code
+print(type(age))  # Output: <class 'int'>
+```
+Operations: You can perform various mathematical operations on integers, such as addition, subtraction, multiplication, and division.
+```python
+Copy code
+a = 10
+b = 3
+print(a + b)  # Addition: 13
+print(a - b)  # Subtraction: 7
+print(a * b)  # Multiplication: 30
+print(a / b)  # Division: 3.3333...
+```
+Limitations: In Python, integers can be of arbitrary size, meaning they can grow as large as your memory allows.
+### 2. Floats
+Definition: A float (floating-point number) is a number that has a decimal point. Floats can represent fractional values.
+
+Example:
+
+```python
+Copy code
+height = 5.9
+price = 19.99
+negative_float = -0.001
+```
+Characteristics:
+
+Type: Similar to integers, you can check the type of a float using the type() function.
+```python
+Copy code
+print(type(height))  # Output: <class 'float'>
+```
+Operations: Floats support the same mathematical operations as integers.
+```python
+Copy code
+x = 4.5
+y = 2.0
+print(x + y)  # Addition: 6.5
+print(x - y)  # Subtraction: 2.5
+print(x * y)  # Multiplication: 9.0
+print(x / y)  # Division: 2.25
+```
+Precision: Floats can introduce precision issues due to how they are stored in memory, especially for very small or very large numbers.
+### 3. Strings
+Definition: A string is a sequence of characters enclosed in quotes (single or double). Strings can contain letters, numbers, symbols, and whitespace.
+
+Example:
+
+```python
+Copy code
+name = "Alice"
+greeting = 'Hello, World!'
+message = "The price is 100 dollars."
+```
+Characteristics:
+
+Type: The type of a string can be checked using type().
+```python
+Copy code
+print(type(name))  # Output: <class 'str'>
+```
+Operations: You can perform various operations on strings, such as concatenation (joining) and repetition.
+```python
+Copy code
+first_name = "John"
+last_name = "Doe"
+full_name = first_name + " " + last_name  # Concatenation: "John Doe"
+print(full_name)
+
+repeated_string = "Ha" * 3  # Repetition: "HaHaHa"
+print(repeated_string)
+```
+String Methods: Strings have numerous built-in methods for manipulation, such as lower(), upper(), replace(), split(), etc.
+```python
+Copy code
+print(name.upper())  # Output: ALICE
+print(name.lower())  # Output: alice
+```
+4. Booleans
+Definition: A boolean represents one of two values: True or False. It is often used in conditional statements to control the flow of a program.
+
+Example:
+
+```python
+Copy code
+is_active = True
+has_access = False
+```
+Characteristics:
+
+Type: The type of a boolean can be confirmed using the type() function.
+```python
+Copy code
+print(type(is_active))  # Output: <class 'bool'>
+```
+Logical Operations: Booleans are commonly used in logical operations, such as and, or, and not.
+```python
+Copy code
+a = True
+b = False
+print(a and b)  # Output: False
+print(a or b)   # Output: True
+print(not a)    # Output: False
+```
+Comparison: Booleans are often the result of comparison operations.
+```python
+Copy code
+print(5 > 3)   # Output: True
+print(2 == 2)  # Output: True
+print(1 != 1)  # Output: False
+```
+Summary of Data Types
+Data Type	Definition	Example	Operations
+Integer	Whole numbers without a decimal point	age = 25	Addition, subtraction, multiplication, division
+Float	Numbers with a decimal point	height = 5.9	Same as integers, but with fractional values
+String	Sequence of characters enclosed in quotes	name = "Alice"	Concatenation, repetition, various string methods
+Boolean	Represents True or False	is_active = True	Logical operations and comparisons
+Conclusion
+Understanding these basic data types is essential for programming in Python. They form the foundation upon which you can build more complex structures and functionalities. If you have any specific questions or need examples for particular operations, feel free to ask!
+
