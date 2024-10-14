@@ -189,12 +189,12 @@ x -= 5 (subtract and assign)
 x *= 2 (multiply and assign)
 x /= 2 (divide and assign)
 ```
-##Summary of Python Variables and Assignment:
+Summary of Python Variables and Assignment:
 
-####Variables store values in memory, and the value can be changed or used later in your code.
-####Use the assignment operator (=) to assign a value to a variable.
-###Python infers the type of a variable automatically based on the value assigned (e.g., int, float, str, bool).
-####You can reassign variables, use them in expressions, and perform type conversion if needed.
-####Variables have scope, which determines where they can be accessed (global or local).
-####Python allows augmented assignment to simplify certain operations (like +=, -=).
-####Would you like to see more examples or ask any specific questions related to variables and assignments?
+Variables store values in memory, and the value can be changed or used later in your code.
+Use the assignment operator (=) to assign a value to a variable.
+Python infers the type of a variable automatically based on the value assigned (e.g., int, float, str, bool).
+You can reassign variables, use them in expressions, and perform type conversion if needed.
+Variables have scope, which determines where they can be accessed (global or local).
+Python allows augmented assignment to simplify certain operations (like +=, -=).
+Would you like to see more examples or ask any specific questions related to variables and assignments?
