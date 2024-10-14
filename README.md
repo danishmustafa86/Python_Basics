@@ -199,7 +199,7 @@ Variables have scope, which determines where they can be accessed (global or loc
 Python allows augmented assignment to simplify certain operations (like +=, -=).
 Would you like to see more examples or ask any specific questions related to variables and assignments?
 
-
+# Data types: integers, floats, strings, booleans
 
 ### 1. Integers
 Definition: An integer is a whole number that can be positive, negative, or zero. It does not have any fractional or decimal component.
