@@ -293,7 +293,7 @@ Copy code
 print(name.upper())  # Output: ALICE
 print(name.lower())  # Output: alice
 ```
-## . Booleans
+## 4. Booleans
 Definition: A boolean represents one of two values: True or False. It is often used in conditional statements to control the flow of a program.
 
 Example:
